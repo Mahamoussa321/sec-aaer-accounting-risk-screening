@@ -1,0 +1,22 @@
+Figure 1. Study workflow for SEC accounting-enforcement risk screening. SEC 10-K and 10-Q financial-statement data are linked to SEC Accounting and Auditing Enforcement Releases (AAERs), transformed into accounting-risk features, split chronologically, and evaluated using discrimination, calibration, F1-score, and top-k screening metrics.
+
+Figure 2. Temporal validation design. Models are trained on 2009–2018 filings, tuned on 2019–2020 filings, and evaluated on the held-out 2021–2023 test period. The test period contains 74,362 filing-period observations and 584 AAER-positive observations, corresponding to a prevalence of approximately 0.785%.
+
+Figure 3a. ROC-AUC comparison across benchmark models and the DeepCut-inspired neural threshold model on the temporal test set.
+
+Figure 3b. PR-AUC comparison across models. Because AAER-positive observations are rare, PR-AUC is reported alongside ROC-AUC.
+
+Figure 3c. F1-score comparison across models using thresholds selected on the validation period.
+
+Figure 4. Top-k screening recall across review budgets. The DeepCut-inspired neural threshold model captures the largest fraction of AAER-positive filings at the 2%, 5%, and 10% review-budget levels.
+
+Figure 5. Number of AAER-positive filings captured within each screening budget for logistic regression, gradient boosting, and DeepCut-inspired neural thresholding.
+
+Figure 6. Receiver operating characteristic curves for all evaluated models on the temporal test set.
+
+Figure 7. Precision-recall curves for all evaluated models on the temporal test set. The dashed horizontal line indicates the test-set AAER prevalence.
+
+Figure 8. DeepCut-inspired neural thresholding architecture. The model learns context-dependent lower and upper thresholds for accounting variables and transforms deviations beyond those thresholds into two-sided exceedance features.
+
+Figure 9. DeepCut-inspired threshold interpretation. Mean low-end and high-end exceedance weights summarize which threshold deviations contribute most strongly to predicted AAER risk.
+

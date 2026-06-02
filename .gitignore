@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large data files
+data/raw/
+data/interim/
+data/processed/
+sec_financial_statement*/
+sec_financial_statements/
+*.zip
+*.7z
+*.tar
+*.gz
+
+# Large generated datasets and predictions
+sec_financial_features_*.csv
+larger_10k_10q_analysis_dataset.csv
+enhanced_10k_10q_analysis_dataset.csv
+accounting_deepcut_analysis_dataset.csv
+test_predictions.csv
+deepcut_test_predictions.csv
+deepcut_thresholds_test_long.csv
+sivc_test_predictions.csv
+outputs/
+
+# Manuscript working files
+~$*.docx
+*.tmp
