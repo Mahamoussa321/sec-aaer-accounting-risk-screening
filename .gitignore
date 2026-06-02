@@ -38,3 +38,7 @@ outputs/
 # Manuscript working files
 ~$*.docx
 *.tmp
+
+# Local data files used only for rerunning analysis
+sec_aaer_index.csv
+aaer_labels_reviewed.csv
