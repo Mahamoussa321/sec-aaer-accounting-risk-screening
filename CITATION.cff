@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "SEC AAER Accounting Risk Screening"
+message: "Please cite this software and the associated manuscript when using the code or adjudicated labels."
+type: software
+authors:
+  - family-names: Moussa
+    given-names: Maha
+  - family-names: Hamouda
+    given-names: Hany M.
+  - family-names: El-Din
+    given-names: Doaa G.
+  - family-names: Abouelenein
+    given-names: Mohamed F.
+  - family-names: Mahmoud
+    given-names: Dina A. B.
+repository-code: "https://github.com/Mahamoussa321/sec-aaer-accounting-risk-screening"
+version: 1.0.0
+date-released: 2026-07-14
+keywords:
+  - SEC
+  - AAER
+  - accounting enforcement
+  - interpretable machine learning
+  - neural thresholds
+  - extreme class imbalance

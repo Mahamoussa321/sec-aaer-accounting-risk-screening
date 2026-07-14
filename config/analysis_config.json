@@ -1,0 +1,49 @@
+{
+  "raw_data": {
+    "start_year": 2009,
+    "end_year": 2026,
+    "end_quarter": 1
+  },
+  "analysis": {
+    "analysis_end_year": 2023,
+    "label_window_years": 3
+  },
+  "temporal_split": {
+    "train": "2009-2018",
+    "validation": "2019-2020",
+    "test": "2021-2023",
+    "primary_mature_test": "2021-2022",
+    "fy2023_status": "descriptive_incomplete_followup"
+  },
+  "publication_strengthening": {
+    "bootstrap_reps": 1000,
+    "cold_start_folds": 5,
+    "full_seeds": [
+      20260531,
+      20260532,
+      20260533,
+      20260534,
+      20260535
+    ],
+    "ablation_seeds": [
+      20260531,
+      20260532,
+      20260533
+    ],
+    "max_epochs": 120,
+    "patience": 18
+  },
+  "final_targeted_corrections": {
+    "mature_max_fy": 2022,
+    "bootstrap_reps": 1000,
+    "seeds": [
+      20260531,
+      20260532,
+      20260533,
+      20260534,
+      20260535
+    ],
+    "max_epochs": 120,
+    "patience": 18
+  }
+}

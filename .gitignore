@@ -1,44 +1,39 @@
 # Python
-__pycache__/
-*.py[cod]
-.ipynb_checkpoints/
 .venv/
 venv/
-env/
-.env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
 
-# OS / editor
-.DS_Store
-Thumbs.db
+# Editors and operating systems
 .vscode/
 .idea/
+.DS_Store
+Thumbs.db
 
-# Large data files
-data/raw/
-data/interim/
-data/processed/
-sec_financial_statement*/
-sec_financial_statements/
+# Raw and derived data too large for GitHub
+sec_aaer_index.csv
+sec_financial_features_*.csv
+aaer_label_review_template*.csv
+aaer_labels_reviewed.csv
+enhanced_10k_10q_analysis_dataset.csv
+outputs/
+cache/
+logs/
+*.npz
+*.pt
+*.pth
+*.pkl
+*.joblib
+
+# Large prediction files and archives
+*predictions*.csv
 *.zip
 *.7z
 *.tar
 *.gz
 
-# Large generated datasets and predictions
-sec_financial_features_*.csv
-larger_10k_10q_analysis_dataset.csv
-enhanced_10k_10q_analysis_dataset.csv
-accounting_deepcut_analysis_dataset.csv
-test_predictions.csv
-deepcut_test_predictions.csv
-deepcut_thresholds_test_long.csv
-sivc_test_predictions.csv
-outputs/
-
-# Manuscript working files
-~$*.docx
-*.tmp
-
-# Local data files used only for rerunning analysis
-sec_aaer_index.csv
-aaer_labels_reviewed.csv
+# Local run artifacts
+reproducibility_run_*.log
+FULL_REPRODUCIBILITY_STATUS.txt

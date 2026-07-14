@@ -1,0 +1,12 @@
+{
+  "project_root": ".",
+  "bootstrap_reps": 1000,
+  "cold_start_folds": 5,
+  "full_seeds": "20260531,20260532,20260533,20260534,20260535",
+  "ablation_seeds": "20260531,20260532,20260533",
+  "max_epochs": 120,
+  "patience": 18,
+  "device": "auto",
+  "diagnostics_only": false,
+  "fast": false
+}

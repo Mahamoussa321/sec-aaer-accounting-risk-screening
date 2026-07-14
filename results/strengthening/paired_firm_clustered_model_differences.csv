@@ -1,0 +1,21 @@
+comparison,metric,estimate_difference,ci_lower,ci_upper,bootstrap_p_two_sided,bootstrap_reps
+DeepCut-inspired neural threshold minus Logistic regression,roc_auc,0.08029505696353212,0.011391269015279834,0.1433518286115734,0.03,1000
+DeepCut-inspired neural threshold minus Logistic regression,pr_auc,0.001476600703513166,-0.003997530332823323,0.00839677421099037,0.408,1000
+DeepCut-inspired neural threshold minus Logistic regression,recall_top_0.05,0.011976047904191628,-0.10978997289972901,0.17082583074152885,0.936,1000
+DeepCut-inspired neural threshold minus Logistic regression,recall_top_0.1,0.11976047904191617,-0.01912076932683901,0.2727466977466977,0.102,1000
+DeepCut-inspired neural threshold minus Random forest,roc_auc,0.11695625065408544,-0.021000973941084525,0.24138347177397956,0.086,1000
+DeepCut-inspired neural threshold minus Random forest,pr_auc,0.003146700527208084,-0.004782583694217494,0.014808574385983661,0.284,1000
+DeepCut-inspired neural threshold minus Random forest,recall_top_0.05,0.0718562874251497,-0.1314126275510204,0.2753748125937031,0.446,1000
+DeepCut-inspired neural threshold minus Random forest,recall_top_0.1,0.16766467065868262,-0.00011792452830187868,0.3416529655340396,0.058,1000
+DeepCut-inspired neural threshold minus Extra trees,roc_auc,0.12476290884095897,0.024805216338825774,0.223946267036489,0.016,1000
+DeepCut-inspired neural threshold minus Extra trees,pr_auc,0.0018781069588336115,-0.005553392886122095,0.012522678280103438,0.468,1000
+DeepCut-inspired neural threshold minus Extra trees,recall_top_0.05,0.017964071856287428,-0.1973204022988522,0.24031942322383493,0.822,1000
+DeepCut-inspired neural threshold minus Extra trees,recall_top_0.1,0.10179640718562877,-0.109529602595296,0.30821382428940564,0.338,1000
+DeepCut-inspired neural threshold minus Gradient boosting,roc_auc,0.14586979217550955,0.01046945900995668,0.2895407318901064,0.036,1000
+DeepCut-inspired neural threshold minus Gradient boosting,pr_auc,0.004096325798695197,0.0002181772199137125,0.01618488168243711,0.04,1000
+DeepCut-inspired neural threshold minus Gradient boosting,recall_top_0.05,0.09580838323353294,-0.08465517241379311,0.29344304344304345,0.296,1000
+DeepCut-inspired neural threshold minus Gradient boosting,recall_top_0.1,0.18562874251497005,0.029401108269394693,0.3529659616655651,0.024,1000
+DeepCut-inspired neural threshold minus HistGradientBoosting,roc_auc,0.11152904076213177,-0.0016428358022645099,0.2244073845934403,0.056,1000
+DeepCut-inspired neural threshold minus HistGradientBoosting,pr_auc,0.003760387438132561,0.00010736346679657596,0.01565142404176708,0.046,1000
+DeepCut-inspired neural threshold minus HistGradientBoosting,recall_top_0.05,0.10179640718562874,-0.07692307692307691,0.29770992366412213,0.256,1000
+DeepCut-inspired neural threshold minus HistGradientBoosting,recall_top_0.1,0.19161676646706588,0.0390234375,0.3629095925297114,0.004,1000

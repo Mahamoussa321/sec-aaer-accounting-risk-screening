@@ -1,15 +1,8 @@
 # Data directory
 
-Raw SEC data are intentionally excluded from GitHub.
+Only the compact adjudicated AAER-link decisions are versioned here.
 
-Do not commit:
-- SEC extracted quarterly folders
-- SEC zip files
-- sec_financial_features_2009_2026.csv
-- large analysis datasets
-- full prediction files
+- `labels/aaer_labels_reviewed.csv`: 495 candidate links with binary keep/reject decisions.
+- `labels/aaer_manual_review_summary.csv`: adjudication totals.
 
-Expected local files for a full rerun:
-- sec_aaer_index.csv
-- sec_financial_features_2009_2026.csv
-- aaer_labels_reviewed.csv
+Raw SEC Financial Statement Data Set quarter folders are stored outside the repository under the parent project’s `data/` directory. Large derived feature tables, analysis datasets, predictions, and caches are excluded from version control.

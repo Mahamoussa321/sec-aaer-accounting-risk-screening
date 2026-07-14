@@ -1,58 +1,47 @@
-# SEC Accounting Enforcement Risk Screening Using Public 10-K and 10-Q Financial Statements
+# Interpretable neural screening of SEC accounting-enforcement risk
 
-This repository contains reproducible code for the SEC/AAER accounting-enforcement risk screening study.
+This repository contains the reproducible code, adjudicated issuer–AAER links, compact result tables, and figures for a study that screens public 10-K and 10-Q financial statements for subsequent SEC Accounting and Auditing Enforcement Release (AAER) association.
 
-The study links public SEC 10-K and 10-Q financial-statement data to SEC Accounting and Auditing Enforcement Releases (AAERs), constructs accounting-risk features, evaluates popular machine-learning models, and compares them with a DeepCut-inspired neural thresholding model.
+## Final study design
 
-## Study design
+- **Raw source:** SEC Financial Statement Data Sets, 2009Q1–2026Q1.
+- **Unit:** filing-period observation derived from 10-K and 10-Q submissions.
+- **Labels:** 495 candidate issuer–AAER links were adjudicated; 104 were retained and 391 rejected.
+- **Modeling split:** train 2009–2018, validation 2019–2020, temporal test 2021–2023.
+- **Primary inference:** FY2021–FY2022 only, because the three-year forward outcome window is mature for those cohorts.
+- **FY2023:** descriptive incomplete-follow-up cohort, not part of primary three-year inference.
 
-- Unit of analysis: SEC filing-period observation from 10-K and 10-Q filings.
-- Outcome: AAER enforcement-associated label within a forward-looking fiscal-year window.
-- Temporal validation: train 2009-2018, validation 2019-2020, test 2021-2023.
-- Metrics: ROC-AUC, PR-AUC, F1-score, and top-k screening recall/lift.
+The rebuilt dataset contains 331,388 observations, 14,047 firms, and 904 positive filing-period outcomes. The mature FY2021–FY2022 test contains 51,627 observations, 7,326 firms, and 123 positives.
 
-## Models
+## Primary result
 
-This accounting-journal version excludes the SIVC/teacher-student model, which is reserved for a separate machine-learning methods paper.
+On the mature temporal test, the DeepCut-inspired threshold model achieved ROC-AUC 0.7569 and PR-AUC 0.0124, compared with ROC-AUC 0.6837 and PR-AUC 0.0071 for logistic regression. The firm-clustered paired ROC-AUC difference was 0.0733 (95% CI 0.0224–0.1265; bootstrap p=0.012). Top-k and PR-AUC differences should be interpreted with their reported uncertainty.
 
-Included models:
-
-1. Logistic regression
-2. Random forest
-3. Extra trees
-4. Gradient boosting
-5. HistGradientBoosting
-6. DeepCut-inspired neural thresholding
-
-## Repository structure
+## Repository map
 
 ```text
-scripts/      Reproducible analysis scripts
-data/         Data README only; raw SEC data are excluded
-results/      Small summary result tables
-figures/      Final manuscript figures
+config/                 Locked analysis design
+ data/labels/            Adjudicated public AAER-link decisions
+ docs/                   Provenance, labeling, and repository documentation
+ figures/                Manuscript-facing figures from the latest clean run
+ results/                Small manuscript-facing tables and run manifest
+ scripts/data/           SEC download and dataset-construction code
+ scripts/analysis/       Main benchmark, figures, robustness, and final corrections
+ tools/                   One-command Windows reproducibility runner
 ```
 
-## Data
+Raw SEC files, the 331k-row analysis dataset, predictions, model caches, and virtual environments are intentionally excluded from GitHub.
 
-Raw SEC datasets and large generated feature tables are not committed to GitHub.
+## Full clean rerun
 
-Expected local files for a full rerun:
+On Windows PowerShell, use `tools/RUN_FULL_REPRODUCIBILITY.ps1`. It validates the 69 quarterly folders, rebuilds every derived dataset and model output from scratch, runs the strengthening and final analyses, validates the expected counts and results, and prepares the compact tracked release files.
 
-```text
-sec_aaer_index.csv
-sec_financial_features_2009_2026.csv
-aaer_labels_reviewed.csv
-```
+See [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for manual commands and [docs/DATA_PROVENANCE.md](docs/DATA_PROVENANCE.md) for source details.
 
-## Reproducing the main analysis
+## Scientific cautions
 
-```bash
-pip install -r requirements.txt
-python scripts/05_run_accounting_deepcut_ml_benchmark.py
-python scripts/06_make_accounting_paper_figures.py
-```
+The system is a **screening and prioritization tool**, not a determination of fraud or liability. AAER timing is delayed, the outcome is extremely rare, and probability calibration and firm-clustered uncertainty are required for responsible interpretation.
 
-## DeepCut reference
+## License
 
-Moussa, M., Ratterman, C., Zhang, W., Zhe, S., & Sun, Y. (2026). DeepCut: Adaptive neural network thresholds for precipitation phase partitioning. *Machine Learning: Earth*, 2(1), 015009. https://doi.org/10.1088/3049-4753/ae5066
+No open-source license has yet been selected by the authors. Public availability does not by itself grant reuse rights beyond those provided by applicable law.

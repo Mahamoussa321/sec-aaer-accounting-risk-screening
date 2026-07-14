@@ -1,0 +1,3 @@
+cohort,rows,firms,positives,prevalence,outcome_status
+Mature temporal test through FY2022,51627,7326,123,0.002382474286710442,Primary; complete three-year outcome maturation under available AAER data
+FY2023 incompletely matured cohort,24296,6511,44,0.0018109976950938427,Descriptive only; three-year forward AAER window is administratively incomplete
