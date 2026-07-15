@@ -9,7 +9,7 @@ DeepCut-inspired neural threshold minus Random forest,pr_auc,0.00527258416120053
 DeepCut-inspired neural threshold minus Random forest,recall_top_0.02,0.01626016260162602,-0.11834514170040485,0.1470708775313404,0.796,1000
 DeepCut-inspired neural threshold minus Random forest,recall_top_0.05,0.1382113821138211,-0.03620250231696015,0.30531015037593984,0.152,1000
 DeepCut-inspired neural threshold minus Random forest,recall_top_0.1,0.13008130081300812,-0.07323540280857355,0.3333333333333333,0.262,1000
-DeepCut-inspired neural threshold minus Extra trees,roc_auc,0.08601368399518106,-0.002009308278862928,0.18889475750739984,0.058,1000
+DeepCut-inspired neural threshold minus Extra trees,roc_auc,0.08601368399518106,-0.002009308278863036,0.18889475750739984,0.058,1000
 DeepCut-inspired neural threshold minus Extra trees,pr_auc,0.0040813355261950235,-0.00514964945457837,0.028298543228390257,0.366,1000
 DeepCut-inspired neural threshold minus Extra trees,recall_top_0.02,-0.03252032520325203,-0.13021765056648776,0.05002118644067794,0.514,1000
 DeepCut-inspired neural threshold minus Extra trees,recall_top_0.05,0.1056910569105691,-0.04904411764705884,0.2777898550724638,0.24,1000

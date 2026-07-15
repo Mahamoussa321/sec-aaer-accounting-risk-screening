@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-07-14T19:08:33.152653+00:00",
+  "generated_utc": "2026-07-15T06:37:25.874229+00:00",
   "python": "3.13.5",
   "platform": "Windows-11-10.0.26200-SP0",
   "packages": {
@@ -20,7 +20,7 @@
     {
       "path": "scripts/analysis/__pycache__/publication_strengthening.cpython-313.pyc",
       "size_bytes": 98143,
-      "sha256": "26b150c1266bf8fa6f44f74e55d2790edcfc735d47fb1fd859afe68ef041b668"
+      "sha256": "5a71dc80e67a70e65a7c1a67142ed4396b9315f3a6b68d554e698288763425e7"
     },
     {
       "path": "scripts/analysis/make_main_figures.py",
@@ -120,17 +120,17 @@
     {
       "path": "results/final/FINAL_TARGETED_CORRECTIONS_REPORT.md",
       "size_bytes": 3586,
-      "sha256": "efe77e3af86353e6b67dc4c4f2779542f1c13f3c4a6b495520154bd9a0f66fb7"
+      "sha256": "53ac2719f2a82b306e951898d5314cfd8200009ae5f33ccd1d266ecad48ddd74"
     },
     {
       "path": "results/final/fy2023_incomplete_followup_raw_metrics.csv",
       "size_bytes": 3978,
-      "sha256": "4edf6f9effb6b9d9c9be6cae6cfcb03478486318dd72b279080d9b3de54dade6"
+      "sha256": "6e12029ec63af24af94e6783c768aa06fd4f5f0b121a1756d18cbe6e5a5bbb3c"
     },
     {
       "path": "results/final/fy2023_incomplete_followup_selected_calibration_metrics.csv",
-      "size_bytes": 3936,
-      "sha256": "3c3c6368bfd7026ef1dc8db28c8bc8d23c39b6334455bd5c8e8334d7575138c5"
+      "size_bytes": 3935,
+      "sha256": "9d013cfbfe720b4b7f43bf5111b6ed4dc532e8b84eb6d8d57e730e6f4788f3db"
     },
     {
       "path": "results/final/manuscript_ready_primary_values.csv",
@@ -149,8 +149,8 @@
     },
     {
       "path": "results/final/mature_selected_calibration_bins.csv",
-      "size_bytes": 6674,
-      "sha256": "18cef7d6bd391bf5763d8904afe2a253989fc2f0747f9daa81a6990cf66d8097"
+      "size_bytes": 6675,
+      "sha256": "801078b68f4d7dd5ece76f54790e736568e8538e9a1a239aa06d57fa5f56aaf6"
     },
     {
       "path": "results/final/mature_temporal_test_firm_clustered_confidence_intervals.csv",
@@ -160,7 +160,7 @@
     {
       "path": "results/final/mature_temporal_test_paired_model_differences.csv",
       "size_bytes": 3640,
-      "sha256": "9319b14259e8dbe83ad561c449c8d92dc8fe784443fddaea581e2b47af00b2d9"
+      "sha256": "c4e606aa0d1bbfa0309161fc1a431e07ba724ff56ec57ee6b10a0b65d116ed19"
     },
     {
       "path": "results/final/mature_temporal_test_raw_metrics.csv",
@@ -169,8 +169,8 @@
     },
     {
       "path": "results/final/mature_temporal_test_selected_calibration_metrics.csv",
-      "size_bytes": 4374,
-      "sha256": "44dc55fb8ede57065b95d8fac5d9541ba0483676ddc75a4bc4e4ad1eae6b2ad1"
+      "size_bytes": 4373,
+      "sha256": "2e503ed4248e7621a4803e37d6469928345bd8c078f1d221d861e18f0d5980b2"
     },
     {
       "path": "results/final/outcome_maturity_cohort_summary.csv",
@@ -210,12 +210,12 @@
     {
       "path": "results/strengthening/calibrated_model_metrics.csv",
       "size_bytes": 12563,
-      "sha256": "a21b04485daad9cbec96cf37048b5194a1b9c7275580673402e7877097f04b1a"
+      "sha256": "57e4768b1605d0145ae1ea587c32ca7c7deb1cfa6e78cc64340af732a9aad70a"
     },
     {
       "path": "results/strengthening/calibrated_probability_bins.csv",
-      "size_bytes": 20909,
-      "sha256": "c6e1261dc0cc20dbd48835e0c069c1188ab4f97d19f037a49fb5a9501d2c517d"
+      "size_bytes": 20914,
+      "sha256": "c32f33b6661e5ce1298988ba22fd7120a455841a7bf84f9cc25b286e5bdf6fa3"
     },
     {
       "path": "results/strengthening/cold_start_clustered_confidence_intervals.csv",
@@ -275,12 +275,12 @@
     {
       "path": "results/strengthening/PUBLICATION_STRENGTHENING_REPORT.md",
       "size_bytes": 2586,
-      "sha256": "5976c2c07dcdf12261883262f5e9db8b615d2f3d8277a87c51656b8d19f5a0d5"
+      "sha256": "f01b014bab09aef5dfbac030744ff8469a0c93bf1d6484994fd5803d2c97d483"
     },
     {
       "path": "results/strengthening/raw_calibration_bins.csv",
-      "size_bytes": 6176,
-      "sha256": "2e25e4886345a4063119a16e9384406c56293d4c375a857b1495d3c9d7f574ca"
+      "size_bytes": 6175,
+      "sha256": "0f6092b1986cf4347d08d41b628fb19b9fa2f62b6c3de7cafd32f4eb6eb7bae1"
     },
     {
       "path": "results/strengthening/run_configuration.json",
@@ -289,8 +289,8 @@
     },
     {
       "path": "results/strengthening/subgroup_robustness_metrics.csv",
-      "size_bytes": 16818,
-      "sha256": "8752b9881af866ad1822c5676fd61d980b492d1548fb52c47e47f0ba6666dc63"
+      "size_bytes": 16819,
+      "sha256": "42d4f91e0a91ed37787054213a27da92c3774c52d855cc7c3f798a1157c8f78d"
     },
     {
       "path": "results/strengthening/ten_k_only_retrained_metrics.csv",
@@ -299,8 +299,8 @@
     },
     {
       "path": "results/strengthening/year_specific_metrics.csv",
-      "size_bytes": 11077,
-      "sha256": "32067202b700959e5b6753241d95338f5a20e6f025ecba0a025f81faa641b0ef"
+      "size_bytes": 11078,
+      "sha256": "d8ce60a7e2e63651dc0b830545dca6e949d5f9590bf37b2b95ad470adf25892d"
     },
     {
       "path": "figures/.gitkeep",
@@ -310,7 +310,7 @@
     {
       "path": "figures/final/figF1_mature_test_roc_auc.pdf",
       "size_bytes": 18430,
-      "sha256": "34113b8572e29b93d5ba6aeb017b593c36618c17cc8960dca3ed068770346f5c"
+      "sha256": "01726b1d08dbf948b2c93f02f7462e31d131cd4424959f6cec9cb38fad6f4cb4"
     },
     {
       "path": "figures/final/figF1_mature_test_roc_auc.png",
@@ -320,7 +320,7 @@
     {
       "path": "figures/final/figF2_mature_test_pr_auc.pdf",
       "size_bytes": 17732,
-      "sha256": "57fde0bf3bea62c8683e0de632276c5bddf2f777516972dd2fb70662d9405e2c"
+      "sha256": "6978da5ceffafc61fc2f7562129254827b9f1bdf48f00871782818f59ee0b5a0"
     },
     {
       "path": "figures/final/figF2_mature_test_pr_auc.png",
@@ -330,7 +330,7 @@
     {
       "path": "figures/final/figF3_mature_test_topk_recall.pdf",
       "size_bytes": 18243,
-      "sha256": "2a24904a652e7f48f0d7d91dcd5d8f478edb9608ddd37bc06be11d3e6af7b397"
+      "sha256": "4e1c0962e2a1287d6827c7b066dace2835baf8b4beaf2756e4e144115dfb14f7"
     },
     {
       "path": "figures/final/figF3_mature_test_topk_recall.png",
@@ -340,7 +340,7 @@
     {
       "path": "figures/final/figF4_mature_calibration_logistic.pdf",
       "size_bytes": 14555,
-      "sha256": "98c442bba0456bac2a4fbcf6c2c3cba4f8ed57635d42d80e03123be03a878b86"
+      "sha256": "3c219fd479fd7cadae2d097465ca757c69a9e425d896f1f782127143b688cb47"
     },
     {
       "path": "figures/final/figF4_mature_calibration_logistic.png",
@@ -350,7 +350,7 @@
     {
       "path": "figures/final/figF5_mature_calibration_deepcut.pdf",
       "size_bytes": 15021,
-      "sha256": "0d33f5d4164cc146ba04f01ad2ed69a6f151a0ceff8068bc354ac0ffb56e2e8d"
+      "sha256": "43e9479775e9a7cb39db64933ccbf2e44e8b7a88383e617ae0a74e6ce3232e06"
     },
     {
       "path": "figures/final/figF5_mature_calibration_deepcut.png",
@@ -360,7 +360,7 @@
     {
       "path": "figures/final/figF6_label_window_roc_auc_consistent_seeds.pdf",
       "size_bytes": 16945,
-      "sha256": "733e84184e27ac375a73878f59023f59d24cb1bdfbe2ca80f0111708014efbe8"
+      "sha256": "e4f4c6c34184a0fbd0a4875dbb0ec13fac88293b891157a2de752ea3a4cb9385"
     },
     {
       "path": "figures/final/figF6_label_window_roc_auc_consistent_seeds.png",
@@ -370,7 +370,7 @@
     {
       "path": "figures/final/figF7_label_window_pr_auc_consistent_seeds.pdf",
       "size_bytes": 16281,
-      "sha256": "d26e0e3d28784307f6998e1d05e24f1d485921a89a884a276302c112ee7aa229"
+      "sha256": "b8f54d851bbeac3a92254b7e7220ae915ee8e8a1b69b3989a87118e6fb50f8ef"
     },
     {
       "path": "figures/final/figF7_label_window_pr_auc_consistent_seeds.png",
@@ -380,7 +380,7 @@
     {
       "path": "figures/final/figF8_label_window_top5_recall_consistent_seeds.pdf",
       "size_bytes": 16422,
-      "sha256": "913e836646a3fb136717f9ca85d9b3dad58482d99975ea755097fae1860cd96e"
+      "sha256": "de63870b43b889b9f8e59a9d561616878075efdfb7a2f110e64cb68fc401ee97"
     },
     {
       "path": "figures/final/figF8_label_window_top5_recall_consistent_seeds.png",
@@ -390,7 +390,7 @@
     {
       "path": "figures/main/fig1_workflow_sec_aaer_screening.pdf",
       "size_bytes": 35604,
-      "sha256": "5d1773215177eefb7de5bc25b84d9a5a6e96fd1b83ee69201d5fea96caa1d8ad"
+      "sha256": "6a2e36cbee2dff27576a607539f74c05b4ff8bab533c9a08fdfb492210d1ed75"
     },
     {
       "path": "figures/main/fig1_workflow_sec_aaer_screening.png",
@@ -400,7 +400,7 @@
     {
       "path": "figures/main/fig2_temporal_split_dataset_summary.pdf",
       "size_bytes": 28682,
-      "sha256": "9bd7db6b75eca523e2f6b5a3ba9ad22a31d23d0f1c304db4f82a382b6d75c0d0"
+      "sha256": "f369655dcd52b069084ccd683edc6c2944d828a7e2950fd906585bbcbd0f2c0c"
     },
     {
       "path": "figures/main/fig2_temporal_split_dataset_summary.png",
@@ -410,7 +410,7 @@
     {
       "path": "figures/main/fig3a_model_roc_auc.pdf",
       "size_bytes": 16346,
-      "sha256": "10f4ab7d9c63e2aaf2af15e810b2f628bc80908bb3fb247d49d6932942fe8d05"
+      "sha256": "272f70aecb008639918977c13c736713da1c5be08b9a83ec3127b9bcee6e1ca2"
     },
     {
       "path": "figures/main/fig3a_model_roc_auc.png",
@@ -420,7 +420,7 @@
     {
       "path": "figures/main/fig3b_model_pr_auc.pdf",
       "size_bytes": 16738,
-      "sha256": "c88af653ca9902aa51007928ed62fc5e92460fd2c5e11ad1fda2014174063de6"
+      "sha256": "9610aa991dbd2711220e5ef5f18f60af75134e361fd9f2ade838b876753a3e18"
     },
     {
       "path": "figures/main/fig3b_model_pr_auc.png",
@@ -430,7 +430,7 @@
     {
       "path": "figures/main/fig3c_model_f1_score.pdf",
       "size_bytes": 16573,
-      "sha256": "49f1312c6037b649df0d977df51ac09fd009e43627a9adbc2f4152c0c32eb325"
+      "sha256": "716330c41f169474ba0769c3716c6b9cf25e046b2f3930bc754576bbdeef7c92"
     },
     {
       "path": "figures/main/fig3c_model_f1_score.png",
@@ -440,7 +440,7 @@
     {
       "path": "figures/main/fig4_topk_recall_screening_budget.pdf",
       "size_bytes": 21267,
-      "sha256": "5b6f77bc7b74f9c6fefd2318058824a4cb60e34c8daae32d794aa928fa40fae0"
+      "sha256": "23cf7c0203c86ea116bfcc1dbd537340234bd4c43cd5c8322dd22ae0fc5cf0d2"
     },
     {
       "path": "figures/main/fig4_topk_recall_screening_budget.png",
@@ -450,7 +450,7 @@
     {
       "path": "figures/main/fig5_topk_positives_captured.pdf",
       "size_bytes": 19080,
-      "sha256": "76b054dd9f86a5c9c1b5e8d7d1545644691743cf5255d54f576330aab05e4438"
+      "sha256": "9a3ac89c4029697c48da4fdc3d2e33d6b979d6499059516218480fa7d8114906"
     },
     {
       "path": "figures/main/fig5_topk_positives_captured.png",
@@ -460,7 +460,7 @@
     {
       "path": "figures/main/fig6_roc_curves.pdf",
       "size_bytes": 27263,
-      "sha256": "7c89318f779eedaeaab7ec3ad6eb04b5d86ece5fede98de0d2eccf180cb4353b"
+      "sha256": "565f27886adba60dc7f56df1c70d264515a15db2392a242491aed03d87840166"
     },
     {
       "path": "figures/main/fig6_roc_curves.png",
@@ -470,7 +470,7 @@
     {
       "path": "figures/main/fig7_precision_recall_curves.pdf",
       "size_bytes": 29679,
-      "sha256": "07eeefdc37fb9a5c294dc6f0a03ffbb3be51cd0cbef030b78163694613cca1c4"
+      "sha256": "e18ee91851d5a79ca89b7a4c41e69e70e7909e78f8887a776d7527b41e68fa84"
     },
     {
       "path": "figures/main/fig7_precision_recall_curves.png",
@@ -480,7 +480,7 @@
     {
       "path": "figures/main/fig8_deepcut_thresholding_method_schematic.pdf",
       "size_bytes": 42961,
-      "sha256": "0f689b59fc2bcfd30bad6cfc8d1279c6a28b8cf1f649b13a5e966542445dfa81"
+      "sha256": "9134f70a952764bc279fe5568085a8c418b86f04d9626f8843585d378d19bb6d"
     },
     {
       "path": "figures/main/fig8_deepcut_thresholding_method_schematic.png",
@@ -490,7 +490,7 @@
     {
       "path": "figures/main/fig9_deepcut_exceedance_weight_summary.pdf",
       "size_bytes": 13703,
-      "sha256": "f29990cac6fcba8359b627335d051aec4dfbeb5f37f07b666d52823fd7469651"
+      "sha256": "a98a9fc7d9006bc4d76751bb7ff2e38190ed0a3dff314a8f243f30cdf692773d"
     },
     {
       "path": "figures/main/fig9_deepcut_exceedance_weight_summary.png",
@@ -505,7 +505,7 @@
     {
       "path": "figures/strengthening/figS1_clustered_roc_auc_cis.pdf",
       "size_bytes": 17134,
-      "sha256": "ef3b036882c28d05ae2fafde3424122f4764a96ef650b06ca923ae1afe81261f"
+      "sha256": "86bb84ab164efaf1e5747cc6117724b79b3dbfad0bba8fdd6b941626472d9ac1"
     },
     {
       "path": "figures/strengthening/figS1_clustered_roc_auc_cis.png",
@@ -515,7 +515,7 @@
     {
       "path": "figures/strengthening/figS2_clustered_pr_auc_cis.pdf",
       "size_bytes": 16744,
-      "sha256": "999939f09319c2e17d3e0458b97a18e2c0c0d800e876ab881f89b44468d52f3d"
+      "sha256": "a7d6c121a29a5ea3e28d71b4c4216dc8fad4fc9c915c296b45eace3f94142a51"
     },
     {
       "path": "figures/strengthening/figS2_clustered_pr_auc_cis.png",
@@ -525,7 +525,7 @@
     {
       "path": "figures/strengthening/figS3_calibration_logistic.pdf",
       "size_bytes": 17275,
-      "sha256": "984b8421ffcfebe54306c74f32409a31bc3a3e57a05fafd56f7f4af422dc8f82"
+      "sha256": "fb73fbda563d4ef17c7d2751dce6f58a81e388996ea83d48399227852fcdaf41"
     },
     {
       "path": "figures/strengthening/figS3_calibration_logistic.png",
@@ -535,7 +535,7 @@
     {
       "path": "figures/strengthening/figS4_calibration_deepcut.pdf",
       "size_bytes": 17490,
-      "sha256": "cc9e6beaf71cc8a05fdad0ba81f1722913e895d630810962bef27ec61e6e1780"
+      "sha256": "2b7ebcd6dc9d4daddaa59dc46570203775c1257952d619c5621dde106152fe36"
     },
     {
       "path": "figures/strengthening/figS4_calibration_deepcut.png",
@@ -545,7 +545,7 @@
     {
       "path": "figures/strengthening/figS5_deepcut_ablation_seed_stability.pdf",
       "size_bytes": 17571,
-      "sha256": "9aa2181482e6f9e25c7df450ea6659983cfa440a1dd76fc97ccf8070a10a7901"
+      "sha256": "ea463fa8e69b9248c6d380dfb411b925e646d0bc8b1b811d4ae62ad3e0d1f670"
     },
     {
       "path": "figures/strengthening/figS5_deepcut_ablation_seed_stability.png",
@@ -555,7 +555,7 @@
     {
       "path": "figures/strengthening/figS6_label_window_sensitivity.pdf",
       "size_bytes": 17785,
-      "sha256": "e055350859c3b94bedf22f10c2c32ed30d07f13db70e80b0a7a51d3456c97bbf"
+      "sha256": "4d3f2f79d7ced7cf14ee4881e8f8578bc74a75fbd0bf9d4bb7b89a4ed8dc58d5"
     },
     {
       "path": "figures/strengthening/figS6_label_window_sensitivity.png",
