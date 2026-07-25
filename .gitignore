@@ -16,7 +16,7 @@ Thumbs.db
 sec_aaer_index.csv
 sec_financial_features_*.csv
 aaer_label_review_template*.csv
-aaer_labels_reviewed.csv
+/aaer_labels_reviewed.csv
 enhanced_10k_10q_analysis_dataset.csv
 outputs/
 cache/
