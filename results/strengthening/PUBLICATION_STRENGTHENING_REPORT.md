@@ -1,6 +1,6 @@
 # SEC–AAER Publication-Strengthening Analysis
 
-Generated: 2026-07-14 23:39:47
+Generated: 2026-07-25 00:22:22
 
 ## Analyses completed
 
